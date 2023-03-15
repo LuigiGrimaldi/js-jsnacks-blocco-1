@@ -32,10 +32,11 @@ let i = 0;
 while( i < invitati.length){
     if(invitati[i] == nomeWhile){
         hasAccesswhile = true;
-         i++
     }
+
+    i++
 }
-if(hasAccess){
+if(hasAccesswhile){
     console.log('accesso consentito');
 }else{
     console.log('accesso non consentito');
